@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        id="@+id/tab_home"
+        icon="@mipmap/caidan_zy"
+        title="@string/home" />
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        id="@+id/project"
+        icon="@mipmap/caidan_pp"
+        title="@string/project" />
+
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        id="@+id/my"
+        icon="@mipmap/caidan_wd"
+        title="@string/my" />
+</tabs>

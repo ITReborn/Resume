@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:transitionGroup="true">
+
+            <ImageView
+                android:id="@+id/details_background_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tint="@color/background_image_photo_tint"
+                tools:ignore="ContentDescription" />
+
+           <!-- <ImageView
+                android:id="@+id/details_album_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="start|bottom"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                android:tint="@color/album_image_photo_tint"
+                tools:ignore="ContentDescription" />-->
+        </FrameLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:transitionGroup="true">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="12dp"
+                android:text="ssss"
+                android:fontFamily="sans-serif-light"
+                android:textAppearance="@android:style/TextAppearance.Material.Title"
+                android:textSize="40sp" />
+            <LinearLayout
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/time"
+                    android:text="12周"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/environment"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="24dp"
+                    android:text="as+git"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="10dp"
+                android:text="项目描述:"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/lorem"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:transitionGroup="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="责任描述:"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/responsibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:transitionGroup="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="技术要点:"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/describe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

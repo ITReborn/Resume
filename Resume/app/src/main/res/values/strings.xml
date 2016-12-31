@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">简历</string>
+
+    <string name="home">首页</string>
+    <string name="project">项目</string>
+    <string name="my">我的</string>
+
+
+    <string name="clear_cache">GitHub</string>
+    <string name="push_notification">博客</string>
+    <string name="no_wifi_load_image">简书</string>
+    <string name="about">关于我的</string>
+    <string name="activitybar">技能点</string>
+    <string name="automatic">是否自动播放视频</string>
+
+    <string name="guodong">谜一样的果冻 果冻 = new 谜一样的果冻( );</string>
+
+
+    <string name="title1">God of War Ascension</string>
+    <string name="title2">Assassin\'s Creed III</string>
+    <string name="title3">Hitman Absolution</string>
+    <string name="title4">Dishonored</string>
+
+
+
+    <string-array name="skill">
+        <item>Android 网络框架Okhttp使用</item>
+        <item>Android Apk多渠道打包</item>
+        <item>okhttp框架解析与应用</item>
+        <item>RecyclerView优雅实现复杂列表布局</item>
+        <item>Android 屏幕适配</item>
+        <item>Android volley详解</item>
+        <item>Android 异步加载</item>
+        <item>Android 消息推送</item>
+        <item>Android handler详解</item>
+        <item>Android 电量优化</item>
+
+        <item>Android 增量更新</item><!--11-->
+        <item>Android 大图加载</item>
+        <item>Android 自定义控件</item>
+        <item>Android Socket通信</item>
+        <item>Android md5加密</item>
+        <item>Android 内存溢出 内存泄露</item>
+        <item>Android 数据库</item>
+        <item>Android 动画</item>
+        <item>Android 四种启动模式</item>
+        <item>Android activity与fragment</item>
+
+        <item>Android 事件分发机制</item>
+        <item>Android Context 上下文</item>
+        <item>Android AsyncTask 源码解析</item>
+        <item>Android Android aidl Binder框架浅析</item>
+        <item>Retrofit2 完全解析 探索与okhttp之间的关系</item>
+        <item>Android 热补丁动态修复框架小结</item>
+        <item>Android MVC/MVP模式</item>
+        <item>Android EventBus实战</item>
+        <item>Android 高仿微信实时聊天 基于百度云推送</item>
+        <item>Android 网络请求</item>
+
+    </string-array>
+<string name="bean">{\"list\":[{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":3,\"name\":\"音悦tai\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、框架的搭建，采用MVP模式，将层次分清。\",\"2、对数据的解析，UI的绘制。\",\"3、图片下拉刷新和下拉加载的实现。\"],\"describe\":[\"1、是采用RecyclerView实现布局的滚动。V层。\",\"2、通过okhttp获取网络数据，通过gson进行解释生成相应的Bean。M层\",\"3、进行下拉刷新数据，下拉刷新数据的功能实现。P层\",\"4、采用三方的jiecaovideoplayer进行对视频的播放。通过SQL获取本地音乐显示在ListView中。在服务中进行对音乐的播放，进行后台播放。\"],\"project\":\"该应用是播放音乐和MV的应用，分为了四部分首页、MV、V榜、悦单。可以用于播放服务器MV，与本地音乐。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":1,\"name\":\"吉屋\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、我的模块UI的搭建与逻辑处理。\",\"2、推荐部分的二维码扫描、版本更新等。\",\"3、有关第三方接口的实现与消息推送。\"],\"describe\":[\"1、对项目的功能逻辑实现计算器、能力评估。通过RecyclerView实现多item的显示。\",\"2、对环信即时通讯，极光推送，百度地图的SDK集成的开发。\",\"3、采用okhttp对网络数据的获取，对图片使用Glide加载图片。\",\"4、实现布局动画缩放相关，对位置定位集成。\"],\"project\":\"应用提供了许多楼盘信息如地址、价格等。共分为四部分首页、管家、消息、我的模块。通过BootemBar实现底部条目点击切换fragment界面，集成百度地图SDK，及时通讯等。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":2,\"name\":\"百万理财\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、模块框架的搭建。UI的搭建。\",\"2、主要实现直播路演的模块。\",\"3、有关第三方的实现图片加载等。\"],\"describe\":[\"1、通过RecyclerView实现多个item的布局实现。使用Glide进行对图片加载显示。\",\"2、使用jiecaovideoplayer的框架实现视频的播放。\",\"3、采用MVP框架，将数据布局和逻辑功能进行关联。\",\"4、集成极光SDK进行对消息推送。\"],\"project\":\"本项目是以金融投资信息的投资方向。该应用主要分为3个部分，分别是财富、直播路演、我的模块。集成三方的BootemBar与fragment的布局切换。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":1,\"name\":\"吉屋\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、我的模块UI的搭建与逻辑处理。\",\"2、推荐部分的二维码扫描、版本更新等。\",\"3、有关第三方接口的实现与消息推送。\"],\"describe\":[\"1、对项目的功能逻辑实现计算器、能力评估。通过RecyclerView实现多item的显示。\",\"2、对环信即时通讯，极光推送，百度地图的SDK集成的开发。\",\"3、采用okhttp对网络数据的获取，对图片使用Glide加载图片。\",\"4、实现布局动画缩放相关，对位置定位集成。\"],\"project\":\"应用提供了许多楼盘信息如地址、价格等。共分为四部分首页、管家、消息、我的模块。通过BootemBar实现底部条目点击切换fragment界面，集成百度地图SDK，及时通讯等。\"}]}</string>
+<!--<string name="bean">{\"list\":[{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":3,\"name\":\"音悦tai\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、框架的搭建，采用MVP模式，将层次分清。\",\"2、对数据的解析，UI的绘制。\",\"3、图片下拉刷新和下拉加载的实现。\"],\"describe\":[\"1、是采用RecyclerView实现布局的滚动。V层。\",\"2、通过okhttp获取网络数据，通过gson进行解释生成相应的Bean。M层\",\"3、进行下拉刷新数据，下拉刷新数据的功能实现。P层\",\"4、采用三方的jiecaovideoplayer进行对视频的播放。通过SQL获取本地音乐显示在ListView中。在服务中进行对音乐的播放，进行后台播放。\"],\"project\":\"该应用是播放音乐和MV的应用，分为了四部分首页、MV、V榜、悦单。可以用于播放服务器MV，与本地音乐。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":1,\"name\":\"吉屋\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、我的模块UI的搭建与逻辑处理。\",\"2、推荐部分的二维码扫描、版本更新等。\",\"3、有关第三方接口的实现与消息推送。\"],\"describe\":[\"1、对项目的功能逻辑实现计算器、能力评估。\",\"2、学习使用许多的开源框架如即时通讯、导航定位等，能够快速运用在手机上。\",\"3、短信对验证信息处理。\"],\"project\":\"本应用提供了许多楼盘信息如地址、价格等。还可以快速与经纪人进行了解相应信息。该应用共分为四部分首页、管家、消息、我的模块。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":2,\"name\":\"百万理财\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、模块框架的搭建。UI的搭建。\",\"2、主要实现直播路演的模块。\",\"3、有关第三方的实现图片加载等。\"],\"describe\":[\"1、通过RecyclerView对UI的布局。使用Glide进行对图片加载显示。\",\"2、使用jiecaovideoplayer的框架实现视频的播放。\",\"3、采用MVP模式，进行数据布局和逻辑功能的实现。\"],\"project\":\"本项目是以金融投资信息的投资方向。该应用主要分为3个部分，分别是财富、直播路演、我的模块。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":4,\"name\":\"吉屋\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、我的模块UI的搭建与逻辑处理。\",\"2、推荐部分的二维码扫描、版本更新等。\",\"3、有关第三方接口的实现与消息推送。\"],\"describe\":[\"1、对项目的功能逻辑实现计算器、能力评估。\",\"2、学习使用许多的开源框架如即时通讯、导航定位等，能够快速运用在手机上。\",\"3、短信对验证信息处理。\"],\"project\":\"本应用提供了许多楼盘信息如地址、价格等。还可以快速与经纪人进行了解相应信息。该应用共分为四部分首页、管家、消息、我的模块。\"}]}</string>-->
+<!--<string name="bean">{\"list\":[{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":1,\"name\":\"吉屋\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、我的模块UI的搭建与逻辑处理。\",\"2、推荐部分的二维码扫描、版本更新等。\",\"3、有关第三方接口的实现与消息推送。\"],\"describe\":[\"1、对项目的功能逻辑实现计算器、能力评估。\",\"2、学习使用许多的开源框架如即时通讯、导航定位等，能够快速运用在手机上。\",\"3、短信对验证信息处理。\"],\"project\":\"本应用提供了许多楼盘信息如地址、价格等。还可以快速与经纪人进行了解相应信息。该应用共分为四部分首页、管家、消息、我的模块。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":2,\"name\":\"百万理财\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、模块框架的搭建。UI的搭建。\",\"2、主要实现直播路演的模块。\",\"3、有关第三方的实现图片加载等。\"],\"describe\":[\"1、通过RecyclerView对UI的布局。使用Glide进行对图片加载显示。\",\"2、使用jiecaovideoplayer的框架实现视频的播放。\",\"3、采用MVP模式，进行数据布局和逻辑功能的实现。\"],\"project\":\"本项目是以金融投资信息的投资方向。该应用主要分为3个部分，分别是财富、直播路演、我的模块。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":3,\"name\":\"音悦tai\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、框架的搭建，采用MVP模式，将层次分清。\",\"2、对数据的解析，UI的绘制。\",\"3、图片下拉刷新和下拉加载的实现。\"],\"describe\":[\"1、是采用RecyclerView实现布局的滚动。V层。\",\"2、通过okhttp获取网络数据，通过gson进行解释生成相应的Bean。M层\",\"3、进行下拉刷新数据，下拉刷新数据的功能实现。P层\",\"4、采用三方的jiecaovideoplayer进行对视频的播放。通过SQL获取本地音乐显示在ListView中。在服务中进行对音乐的播放，进行后台播放。\"],\"project\":\"该应用是播放音乐和MV的应用，分为了四部分首页、MV、V榜、悦单。可以用于播放服务器MV，与本地音乐。\"},{\"picture\":[\"image/home01.jpg\",\"image/home02.jpg\",\"image/home03.jpg\",\"image/home04.jpg\"],\"id\":4,\"name\":\"吉屋\",\"time\":\"12周\",\"environment\":\"AS+Git\",\"responsibility\":[\"1、我的模块UI的搭建与逻辑处理。\",\"2、推荐部分的二维码扫描、版本更新等。\",\"3、有关第三方接口的实现与消息推送。\"],\"describe\":[\"1、对项目的功能逻辑实现计算器、能力评估。\",\"2、学习使用许多的开源框架如即时通讯、导航定位等，能够快速运用在手机上。\",\"3、短信对验证信息处理。\"],\"project\":\"本应用提供了许多楼盘信息如地址、价格等。还可以快速与经纪人进行了解相应信息。该应用共分为四部分首页、管家、消息、我的模块。\"}]}</string>-->
+    <string name="lorem">本应用提供了许多楼盘信息如地址、价格等。还可以快速与经纪人进行了解相应信息。该应用共分为四部分首页、管家、消息、我的模块。</string>
+</resources>
